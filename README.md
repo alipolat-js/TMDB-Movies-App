@@ -18,6 +18,8 @@
 **_or_**
 
 ## Run Locally
+_**You must have NODE and NPM installed on your computer for run.**_
+
 _! Get your TMDB api key before running._
 ```
 git clone https://github.com/alipolat-js/TMDB-Movies-App.git
@@ -52,4 +54,4 @@ Please use GitHub issues and Pull Requests for Contributing._
 ## Licence
 _No license. You can fork the project and use it as you wish. Good luck everyone_
 
-**_Designed & developed by Ali Polat in October 2021._**
+**_Designed & developed by Ali POLAT in October 2021._**
