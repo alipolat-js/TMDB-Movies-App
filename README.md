@@ -50,6 +50,6 @@ _Thank you for considering contributing!
 Please use GitHub issues and Pull Requests for Contributing._
 
 ## Licence
-_No license. You can forj the project and use it as you wish. Good luck everyone_
+_No license. You can fork the project and use it as you wish. Good luck everyone_
 
 **_Designed & developed by Ali Polat in October 2021._**
