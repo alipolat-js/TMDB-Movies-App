@@ -26,8 +26,8 @@ const Footer = () => {
       <div className="mt-2 sc-box-cover">
         <div className="sc-box">
           <a target="_blank" href="https://www.instagram.com/__alipolat/" className="fw-bold fs-5 text-light text-decoration-none"><i className="fab fa-instagram"></i></a>
-          <a target="_blank" href="https://twitter.com/__alipolat/" className="fw-bold fs-5 text-light text-decoration-none"><i className="fab fa-twitter"></i></a>
-          <a target="_blank" href="https://www.linkedin.com/in/ali-polat-039a44200/" className="fw-bold fs-5 text-light text-decoration-none"><i className="fab fa-linkedin"></i></a>
+          <a target="_blank" href="https://twitter.com/_alipolat/" className="fw-bold fs-5 text-light text-decoration-none"><i className="fab fa-twitter"></i></a>
+          <a target="_blank" href="https://www.linkedin.com/in/-alipolat/" className="fw-bold fs-5 text-light text-decoration-none"><i className="fab fa-linkedin"></i></a>
         </div>
       </div>
     </MainFooter>
