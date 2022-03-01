@@ -13,7 +13,7 @@
 * Create a Watched list (in local storage)
 
 ## Live App
-> https://tmdb-movies-app-reactjs.herokuapp.com/
+> https://tmdb-movies-app.alipolat.tech
 
 **_or_**
 
@@ -28,7 +28,7 @@ cd TMDB-Movies-App
 
 npm install
 ```
-> **_Add your api key with local .env or run the application with your api key via terminal.(REACT_APP_API_KEY=YOURAPIKEY)_**
+> **_Add your API key to local or run the application via terminal with your api key.(REACT_APP_API_KEY=YOURAPIKEY)_**
 ```
 npm start
 ```

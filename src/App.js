@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 // import components
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 // import pages
 import Main from "./Pages/Main"
@@ -12,9 +13,7 @@ import Watched from "./Pages/Watched/";
 import WatchLater from "./Pages/WatchLater";
 import Movie from "./Pages/Movie";
 
-import Footer from "./components/Footer";
 
-import BackgroundImg from './assets/background.jpg'
 import styled from 'styled-components'
 
 const MainImg = styled.img`
@@ -39,6 +38,8 @@ const MainImgCover = styled.div`
     -webkit-box-shadow: inset 0px -500px 300px -29px rgba(0,0,0,0);
     -moz-box-shadow: inset 0px -500px 300px -29px rgba(0,0,0);
     box-shadow: inset 0px -500px 300px -29px rgba(0,0,0);
+    background-color: rgb(0,0,0,.5);
+    backdrop-filter: blur(3px);
   } 
 `
 
@@ -55,7 +56,7 @@ export const App = props => {
         <Navbar />
 
         <MainImgCover>
-          <MainImg src={BackgroundImg} />
+          <MainImg src="/background.jpg" />
         </MainImgCover>
 
         <Switch>

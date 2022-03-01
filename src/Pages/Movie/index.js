@@ -79,8 +79,8 @@ export const Movie = result => {
 
   const [loader, setloader] = useState(false)
 
-  const [movieInWatchLater, setmovieInWatchLater] = useState(result.watchLaterList.find(item => item.id == id))
-  const [movieInWatched, setmovieInWatched] = useState(result.watchedList.find(item => item.id == id))
+  const [movieInWatchLater, setmovieInWatchLater] = useState(result.watchLaterList.find(item => item.id === id))
+  const [movieInWatched, setmovieInWatched] = useState(result.watchedList.find(item => item.id === id))
 
   const sendReducer = (movie) => {
     movieInWatchLater
@@ -108,8 +108,8 @@ export const Movie = result => {
   }, [])
 
   useEffect(() => {
-    setmovieInWatchLater(result.watchLaterList.find(item => item.id == id))
-    setmovieInWatched(result.watchedList.find(item => item.id == id))
+    setmovieInWatchLater(result.watchLaterList.find(item => item.id === id))
+    setmovieInWatched(result.watchedList.find(item => item.id === id))
   }, [result])
 
   return (
